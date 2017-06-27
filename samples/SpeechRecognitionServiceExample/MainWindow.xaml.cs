@@ -80,6 +80,7 @@ namespace Microsoft.CognitiveServices.SpeechRecognition
         {
             this.InitializeComponent();
             this.Initialize();
+            
         }
 
         #region Events
@@ -238,7 +239,7 @@ namespace Microsoft.CognitiveServices.SpeechRecognition
         /// </value>
         private string DefaultLocale
         {
-            get { return "en-US"; }
+            get { return "zh-TW"; }
         }
 
         /// <summary>
